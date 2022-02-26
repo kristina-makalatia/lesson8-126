@@ -53,3 +53,37 @@
         width: 100%;
     }
 }
+
+/* header responsive */
+@media (max-width: 768px) {
+    .navigation {
+        display: none;
+    }
+    .burger-bar-icon {
+        display: block;
+    }
+}
+
+@media (max-width: 400px) {
+    .logo {
+        width: 100px;
+    }
+}
+
+/* section#1 responsive */
+@media (max-width: 1024px) {
+    .section-div-wraper {
+        flex-direction: column;
+    }
+}
+@media (max-width: 700px) {
+    .title-section {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 370px) {
+    .blue-box {
+        width: 150px;
+    }
+}

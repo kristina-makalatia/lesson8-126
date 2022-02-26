@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 .nav-ul {
     display: flex;
@@ -15,16 +16,17 @@
 .left-block {
     background-color: lightblue;
     max-width:600px;
-    width:100%;
+    width: 100%;
 }
 .right-block {
     background-color: blueviolet;
     max-width: 600px;
-    width:100%;
+    width: 100%;
 }
 .section-div-wraper {
     display: flex;
     justify-content: space-around;
+    /* flex-wrap: wrap; */
 }
 .title-section {
     font-size: 78px;
@@ -35,7 +37,7 @@
     margin:0 auto;
     background-color: cadetblue;
 }
-.image-block {
+.image-block1 {
     width: 100%;
 }
 .blue-box {
@@ -98,4 +100,24 @@
 }
 
 
-/* responsive */
+/* icons fontawesome */
+.fa-facebook {
+    color: blue;
+    font-size: 30px;
+}
+.youtube-icon {
+    color: red;
+    font-size: 30px;
+}
+.fa-facebook:hover {
+    color: yellow;
+}
+.burger-bar-icon {
+    font-size: 35px;
+    color: red;
+    display: none;
+}
+
+.logo {
+    width: 195px;
+}
