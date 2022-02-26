@@ -87,3 +87,9 @@
         width: 150px;
     }
 }
+
+@media (max-width: 600px) {
+    .background-image {
+        background-position: center;
+    }
+}
